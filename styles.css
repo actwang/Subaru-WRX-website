@@ -108,13 +108,15 @@ header{
     height:100vh;
     overflow: scroll;
     box-shadow: 0 0 1.5em rgba(0,0,0,0.5);
-    z-index: e;
+    z-index: 3;
     transition: 0.4s ease-in-out;
 }
 
 .close-btn {
-    cursor:pointer;
     text-align: right;
+}
+.close-btn:hover{
+    cursor:pointer;
 }
 
 .sidebar li {
